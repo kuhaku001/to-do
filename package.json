@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Aplication 1/5 ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./backend/index.js"
   },
   "keywords": [
     "todo",
@@ -18,5 +19,13 @@
     "api"
   ],
   "author": "Kuhaku001 (Jorge Carcamo)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
