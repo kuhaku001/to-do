@@ -1,0 +1,22 @@
+{
+  "name": "to-do",
+  "version": "1.0.0",
+  "description": "Aplication 1/5 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo",
+    "js",
+    "javascript",
+    "css",
+    "html",
+    "react",
+    "node",
+    "express",
+    "api"
+  ],
+  "author": "Kuhaku001 (Jorge Carcamo)",
+  "license": "ISC"
+}
