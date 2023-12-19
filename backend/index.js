@@ -1,9 +1,9 @@
-// Dependencias
+// Dependences
 import express from "express";
 import cors from "cors";
 import morgan from "morgan";
 
-// Archivos
+// Files
 import router from "./router/todo.js";
 
 const app = express();
